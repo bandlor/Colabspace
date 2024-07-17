@@ -1,10 +1,10 @@
 # README
 
 ## How to Run
-1. run `gem install dip`
-2. run `dip provision` in root project folder, it setups project and run start server
-   - run `dip rails s` to run container
-3. go to `localhost:3000/users`, create new user and add image
+1. Run `gem install dip`.
+2. In the root project folder, run `dip provision`. This sets up the project and starts the server.
+   - Run dip rails s to start the container.
+3. Go to `localhost:3000/users`, create a new user, and add an image.
 
 ## Configs
 
