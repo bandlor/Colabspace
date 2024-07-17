@@ -1,0 +1,11 @@
+<div id="<%= dom_id user %>">
+  <p><%= user.id %></p>
+  <p> <%=user.avatar.attached? %> </p>
+  <% if user.avatar.attached?%>
+    <% if local_assigns[:index]%>
+      <%= image_tag user.avatar.variant(:small) %>
+    <% else %>
+      <%= image_tag user.avatar %>
+    <% end %>
+  <% end%>
+</div>

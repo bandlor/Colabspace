@@ -1,3 +1,6 @@
 # An editor to work with credentials
 vim
-
+# https://edgeguides.rubyonrails.org/active_storage_overview.html#requirements
+# requirements for image_processing gem https://github.com/janko/image_processing?tab=readme-ov-file#installation
+imagemagick
+libvips

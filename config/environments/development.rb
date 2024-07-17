@@ -67,4 +67,7 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+
+  # avoid "Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1"
+  config.web_console.permissions = '0.0.0.0/0'
 end
